@@ -3,7 +3,6 @@ package org.example;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class RectangleTest {
@@ -11,7 +10,7 @@ class RectangleTest {
     Rectangle rectangle;
     @BeforeEach
     void setUp() {
-        Rectangle rectangle = new Rectangle(5,10);
+        rectangle = new Rectangle(5,10);
     }
 
     @Test
